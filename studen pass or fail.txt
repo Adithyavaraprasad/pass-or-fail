@@ -1,0 +1,11 @@
+#student pass or fail
+sno=int(input('enter the serial number'))
+name=input('enter the name')
+group=input('enter the group')
+s1=int(input('enter the marks of subject1'))
+s2=int(input('enter the marks of subject2'))
+s3=int(input('enter the marks of subject3'))
+if s1<35 or s2<35 or s3<35:
+    print('fail')
+else:
+    print('pass')
